@@ -1,0 +1,28 @@
+{
+  "name": "crawlrank",
+  "version": "0.1.0",
+  "description": "A polite concurrent web crawler and a BM25 search index, written from scratch with no runtime dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Krish Saxena",
+  "keywords": ["crawler", "search-engine", "bm25", "inverted-index", "information-retrieval"],
+  "engines": { "node": ">=20" },
+  "bin": { "crawlrank": "./dist/cli.js" },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "demo": "tsx src/cli.ts demo"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
