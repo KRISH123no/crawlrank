@@ -1,5 +1,7 @@
 # crawlrank
 
+[![CI](https://github.com/KRISH123no/crawlrank/actions/workflows/ci.yml/badge.svg)](https://github.com/KRISH123no/crawlrank/actions/workflows/ci.yml)
+
 A polite concurrent web crawler and a BM25 search index, in TypeScript, with **no runtime
 dependencies**. Point it at a site, get back a ranked search index over that site.
 
