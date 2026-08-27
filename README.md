@@ -2,8 +2,14 @@
 
 [![CI](https://github.com/KRISH123no/crawlrank/actions/workflows/ci.yml/badge.svg)](https://github.com/KRISH123no/crawlrank/actions/workflows/ci.yml)
 
-A polite concurrent web crawler and a BM25 search index, in TypeScript, with **no runtime
-dependencies**. Point it at a site, get back a ranked search index over that site.
+![crawlrank crawling a site and ranking the results](assets/demo.svg)
+
+**Point it at a website, get back a search engine for that website.** It crawls without being a
+nuisance — obeying robots.txt, one request at a time per host — then ranks what it finds with
+BM25, the scoring function underneath Lucene and Elasticsearch.
+
+TypeScript, **no runtime dependencies**: the crawler, the HTML reader, the stemmer and the ranking
+maths are all written here.
 
 ```bash
 npm install && npm run build

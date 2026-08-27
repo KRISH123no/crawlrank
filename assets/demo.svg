@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="753" height="429" viewBox="0 0 753 429" role="img" aria-label="crawlrank — crawl and rank, offline">
+<rect width="753" height="429" rx="8" fill="#0d1117" stroke="#30363d"/>
+<path d="M0 8a8 8 0 0 1 8-8h737a8 8 0 0 1 8 8v28H0z" fill="#161b22"/>
+<line x1="0" y1="36" x2="753" y2="36" stroke="#30363d"/>
+<circle cx="20" cy="18" r="5.5" fill="#ff5f57"/>
+<circle cx="40" cy="18" r="5.5" fill="#febc2e"/>
+<circle cx="60" cy="18" r="5.5" fill="#28c840"/>
+<text x="376.5" y="23" fill="#6e7681" font-size="12" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">crawlrank — crawl and rank, offline</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" xml:space="preserve">
+<text x="18" y="68" fill="#7ee787">$ crawlrank demo</text>
+<text x="18" y="89" fill="#c9d1d9">crawling the built-in demo site at https://roast.example/</text>
+<text x="18" y="131" fill="#c9d1d9">  [0] https://roast.example/  Roast — small-batch coffee roasters</text>
+<text x="18" y="152" fill="#c9d1d9">  [1] https://roast.example/beans  Our beans</text>
+<text x="18" y="173" fill="#c9d1d9">  [1] https://roast.example/brewing  Brewing guides: cold brew and filter</text>
+<text x="18" y="215" fill="#c9d1d9">3 indexed, 5 request(s), 1 blocked by robots.txt, 1 noindex</text>
+<text x="18" y="257" fill="#c9d1d9">3 result(s) for "cold brew":</text>
+<text x="18" y="299" fill="#79c0ff">1. Brewing guides: cold brew and filter</text>
+<text x="18" y="320" fill="#c9d1d9">   https://roast.example/brewing</text>
+<text x="18" y="341" fill="#c9d1d9">   score 1.939</text>
+<text x="18" y="362" fill="#c9d1d9">   Cold brew takes twelve hours. Filter coffee takes three minutes. Both need…</text>
+<text x="18" y="404" fill="#79c0ff">2. Roast — small-batch coffee roasters</text>
+</g>
+</svg>
